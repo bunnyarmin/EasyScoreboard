@@ -1,7 +1,7 @@
 
 # EasyScoreboardAPI
 
-Die EasyScoreboardAPI bietet die Option simple ein Scoreboard fÃ¼r dein Minecraft: Bedrock Server zu erstellen.
+Die EasyScoreboardAPI bietet die Option simple ein Scoreboard für dein Minecraft: Bedrock Server zu erstellen.
 
 Es ist eine API deshalb findet ihr keine Config File!!!
 
@@ -24,7 +24,7 @@ Scoreboard::create();
 $scoreboard->remove($player);
 ```
 
-### FÃ¼ge eine Linie hinzu
+### Füge eine Linie hinzu
 ```php
 $scoreboard->setLine($player, 1, "Linie 1");
 ```
@@ -33,3 +33,6 @@ $scoreboard->setLine($player, 1, "Linie 1");
 ```php
 $scoreboard->removeLine($player, 1);
 ```
+
+# Installation
+Einfach in dein Plugin Ordner packen und die passende Namespace eintragen!
