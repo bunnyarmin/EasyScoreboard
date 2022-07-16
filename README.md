@@ -40,6 +40,6 @@ Einfach in dein Plugin Ordner packen und die passende Namespace eintragen!
 
 # Empfehlung
 Außerdem empfehle ich die Nutzung der API ausschließlich in Events, z.B. im PlayerJoinEvent dem Spieler sein Scoreboard zuteilen,
-beim PlayerDeathEvent einfach die Line removen und neu adden.
+beim PlayerDeathEvent einfach die Line removen und neu adden (falls Kills/Deaths in Scoreboard eingetragen sind).
 Beim Ping Status oder TPS Status kann man natürlich eine Task benutzen, man sollte einfach beachten das sich nur Lines in der Task befinden die sich wirklich öfters wiederholen.
 Beispiel: Der Spielername bleibt immer gleich, etc..!
