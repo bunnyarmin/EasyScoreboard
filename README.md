@@ -7,10 +7,6 @@ Es ist eine API deshalb findet ihr keine Config File!!!
 
 # Wie funktioniert es?
 
-
-
-## API Reference
-
 ### Erstelle ein Scoreboard
 
 ```php
