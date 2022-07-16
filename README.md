@@ -1,7 +1,8 @@
 
 # EasyScoreboardAPI
 
-Die EasyScoreboardAPI bietet die Option simple ein Scoreboard für dein Minecraft: Bedrock Server zu erstellen.
+Die EasyScoreboardAPI bietet die Option simple ein Scoreboard für dein PocketMine Server zu erstellen.
+Es ist wirklich der cleanste Weg den ich kenne.
 
 Es ist eine API deshalb findet ihr keine Config File!!!
 
@@ -36,3 +37,9 @@ $scoreboard->removeLine($player, 1);
 
 # Installation
 Einfach in dein Plugin Ordner packen und die passende Namespace eintragen!
+
+# Empfehlung
+Außerdem empfehle ich die Nutzung der API ausschließlich in Events, z.B. im PlayerJoinEvent dem Spieler sein Scoreboard zuteilen,
+beim PlayerDeathEvent einfach die Line removen und neu adden.
+Beim Ping Status oder TPS Status kann man natürlich eine Task benutzen, man sollte einfach beachten das sich nur Lines in der Task befinden die sich wirklich öfters wiederholen.
+Beispiel: Der Spielername bleibt immer gleich, etc..!
