@@ -1,7 +1,7 @@
 
 # EasyScoreboardAPI
 
-Die EasyScoreboardAPI bietet die Option simple ein Scoreboard für dein PocketMine Server zu erstellen.
+Die EasyScoreboardAPI bietet dir die Option simple ein Scoreboard für dein PocketMine Server zu erstellen.
 Es ist wirklich der cleanste und einfachste Weg den ich kenne.
 
 # Wie funktioniert es?
