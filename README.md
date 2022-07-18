@@ -2,9 +2,7 @@
 # EasyScoreboardAPI
 
 Die EasyScoreboardAPI bietet die Option simple ein Scoreboard für dein PocketMine Server zu erstellen.
-Es ist wirklich der cleanste Weg den ich kenne.
-
-Es ist eine API deshalb findet ihr keine Config File!!!
+Es ist wirklich der cleanste und einfachste Weg den ich kenne.
 
 # Wie funktioniert es?
 
@@ -15,7 +13,7 @@ $scoreboard = new ScoreboardAPI();
 $scoreboard->create($player, "Mein Server");
 ```
 
-NICHT!
+NICHT! 
 ```php
 Scoreboard::create();
 ```
@@ -36,7 +34,7 @@ $scoreboard->removeLine($player, 1);
 ```
 
 # Installation
-Einfach in dein Plugin Ordner packen und die passende Namespace eintragen!
+ScoreboardAPI.php herunterladen und in dein Projekt Ordner packen, namespace auf dein Projekt anpassen und du kannst die API direkt nutzen!
 
 # Empfehlung
 Außerdem empfehle ich die Nutzung der API ausschließlich in Events, z.B. im PlayerJoinEvent dem Spieler sein Scoreboard zuteilen,
