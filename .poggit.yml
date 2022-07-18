@@ -2,7 +2,4 @@
 build-by-default: true
 branches:
 - main
-projects:
-  ScoreboardAPI:
-    path: ScoreboardAPI/
 ...
