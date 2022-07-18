@@ -1,0 +1,27 @@
+name: Test
+main: Test\Main
+src-namespace-prefix: Test
+version: 1.0.0-test
+api: 4.0.0
+
+commands:
+  add:
+    description: "Add basic Scoreboard"
+    permission: test.sb.add
+  remove:
+    description: "Remove basic Scoreboard"
+    permission: test.sb.remove
+  removeline:
+    description: "Remove displayname from Scoreboard"
+    permission: test.sb.rmline
+
+permissions:
+  test.sb.add:
+    description: "/add"
+    default: true
+  test.sb.remove:
+    description: "/remove"
+    default: true
+  test.sb.rmline:
+    description: "/removeline"
+    default: true
